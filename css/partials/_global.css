@@ -2,12 +2,12 @@
     font: normal bold 50px/72px var(--roboto);
 }
 .text-uppercase{
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 /* buttons */
 .button{
-    padding:2rem 2.2rem;
+    padding: 2rem 2.2rem;
     font: normal 500 16px/20px var(--roboto);
     position: relative;
     border: 3px solid transparent;
@@ -21,7 +21,7 @@
     box-shadow: var(--box-shadow);
 }
 .button.primary-button:hover{
-    background:whitesmoke;
+    background: whitesmoke;
     background-clip: padding-box;
     color: black;
 }
@@ -43,4 +43,8 @@
     background: var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
+}
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--roboto);
 }
