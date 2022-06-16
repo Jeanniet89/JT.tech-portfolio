@@ -113,7 +113,7 @@
     transition: box-shadow .7s ease;
 }
 .site-main > .skills-area .skills:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
