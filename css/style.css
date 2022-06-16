@@ -5,7 +5,7 @@
 /* import global css */
 @import url(./partials/_global.css);
 
-/* navbar starts */
+/* navbar*/
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
@@ -30,10 +30,10 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-/* banner starts */
+/* banner */
 .site-main .site-banner .site-title h3{
    padding-top: 35%;
-   font-weight: 500;
+   font-weight: 500; 
 }
 .site-main .site-banner .site-title h3::after{
     content: "";
@@ -53,19 +53,18 @@
 .site-main .site-banner .banner-image > img{
     padding: 14rem 0;
     width: 40rem;
-    margin-left: -8%;
 }
-/* About area */
+/* About */
 .site-main .about-area{
     padding:8rem 8rem;
 }
-.site-main .about-area .about-image> img{
+.site-main .about-area .about-image > img{
     padding: 0rem 0;
     width: 40rem;
     margin-left: 15%;
     border-radius: 50%;
 }
-.site-main .about-area .about-image> img:hover{
+.site-main .about-area .about-image > img:hover{
   /* Starts the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
 
@@ -92,7 +91,30 @@
 }
 .site-main .about-area .about-title .paragraph > p{
     padding: 2rem 0;
-
 }
-/* banner ends */
-/* banner ends */
+/* Skills */
+.site-main .skills-area{
+    padding: 7rem 2rem;
+}
+.site-main .skills-area .skills-title{
+    padding: 0 14rem;
+}
+.site-main .skills-area .skills-title h1{
+    font-size: 35px;
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+.site-main > .skills-area .skills{
+    background: rgba(248,252,253,0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+.site-main > .skills-area .skills:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+/* projects */
