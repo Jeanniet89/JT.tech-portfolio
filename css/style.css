@@ -6,63 +6,62 @@
 @import url(./partials/_global.css);
 
 /* navbar*/
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+.site-main .header_area .main-menu .navbar{
+    padding: 1rem 3rem;
 }
-.header_area .main-menu .navbar{
-    padding: 1rem 20rem;
-}
-.header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/5px var(--roboto);
+.site-main .header_area .main-menu .nav-item .nav-link{
+    font: normal 500 17px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1.7rem;
+    padding: 14px 20px;
     color: var(--title-color);
+    text-align: center;
+    text-decoration: none;
 }
-.header_area .main-menu .navbar-nav.active a{
+.site-main .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-align: center;
+    text-decoration: none;
 }
-.header_area .main-menu .navbar-nav a:hover{
+.site-main .header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 /* banner */
-.site-main .site-banner .site-title h3{
+ .site-banner{
+    background: url(/img/eye-4453129_1920.jpg)no-repeat 0% 50%;
+}
+ .site-banner .site-title h3{
    padding-top: 35%;
    font-weight: 500; 
 }
-.site-main .site-banner .site-title h3::after{
+ .site-banner .site-title h3::after{
     content: "";
     height: 2px;
-    Width: 16vw;
+    Width: 15vw;
     background:black;
     display: inline-block;
-    margin-left: 3%;
+    margin-left: 2%;
     transform: translateY(-4px);
 }
-.site-main .site-banner .site-title h1{
+ .site-banner .site-title h1{
     font-size:5rem;
 }
-.site-main .site-banner .site-title h4{
+ .site-banner .site-title h4{
     font-size:1.5rem;
-}
-.site-main .site-banner .banner-image > img{
-    padding: 14rem 0;
-    width: 40rem;
 }
 /* About */
 .site-main .about-area{
-    padding:8rem 8rem;
+    padding:2rem 2rem;
 }
 .site-main .about-area .about-image > img{
-    padding: 0rem 0;
-    width: 40rem;
-    margin-left: 15%;
-    border-radius: 50%;
+    padding: 6rem;
+    margin-left: 5%;
+    border-radius: 100%;
 }
 .site-main .about-area .about-image > img:hover{
   /* Starts the shake animation and make the animation last for 0.5 seconds */
@@ -94,14 +93,14 @@
 }
 /* Skills */
 .site-main .skills-area{
-    padding: 7rem 2rem;
+    padding: 2rem 2rem;
 }
 .site-main .skills-area .skills-title{
-    padding: 0 14rem;
+    padding: 0 2rem;
+    text-align: center;
 }
 .site-main .skills-area .skills-title h1{
     font-size: 35px;
-    display: block;
     font: normal bold 49px/60px var(--roboto);
     letter-spacing: 21px;
 }
@@ -115,6 +114,25 @@
 .site-main > .skills-area .skills:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
-
 /* projects */
+.site-main .project-area{
+    padding: 2rem 2rem;
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+.site-main .project-area .grid .my-projects > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+.site-main .project-area .grid .my-projects .img a:hover img{
+    filter:brightness(1.1)drop-shadow(0 8px 16px 0 rgba(0,0,0,0.2));
+}
+.site-main .project-area .grid .my-projects{
+    margin: 2rem auto;
+}

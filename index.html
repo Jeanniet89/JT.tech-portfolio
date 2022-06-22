@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J.Tech Portfolio</title>
 
-    <!-- Bootstrap css file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="./css/all.min.css">
 
-    <!-- font awesome icons -->
-    <link rel="stylesheet" href="./css/all.min.css">
-
-    <!-- custom css file -->
-    <link rel="stylesheet" href="css/style.css">
+        <!-- custom css file -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Bootstrap css file -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        
+        <!-- Popper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!--isotope js file -->
+        <script src="./vendor/isotope/isotope.min.js"></script>
+        <!--Main js file -->
+        <script src="./js/main.js"></script>
 </head>
 <body>
-    <!-- =================================== Start Header Area ======================================= -->
-    <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                  <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img alt="Logo" src="./img/JTlogo.jpeg">
-                    </a>
-                  </div>
-                    <ul class="nav navbar-nav navbar-right">
-                      <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i> Home <span class="sr-only">(current)</span></a></li>
-                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-user-gear"></i> About </a></li>
-                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-puzzle-piece"></i> Skills </a></li>
-                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-code-pull-request"></i> Projects </a></li> 
-                    </ul>
-              </nav>
+    <!-- =================================== Banner ======================================= -->
+    <section class="site-banner jumbotron jumbotron-fluid" style="margin-bottom:0">
+        <div class="container">
+         <div class="site-title">
+             <h3 class="title-text">Hey!</h3>
+             <h1 class="title-text text-uppercase">I'm Jeannie.</h1>
+             <h4 class="title-text text-uppercase">Full Stack Web Developer</h4>
+             <div class="site-buttons">
+                 <div class="d-flex flex-row flex-wrap">
+                     <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire me</button>
+                     <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                 </div>
+             </div>
+         </div>
         </div>
-    </header>
-
+     </section>
 <!-- =================================== Main Area Starts ======================================= -->
 <main class="site-main">
 
-<!-- =================================== Banner ======================================= -->
-<section class="site-banner jumbotron jumbotron-fluid text-center" style="margin-bottom:0">
-   <div class="container mx-auto">
-    <div class="row">
-    <div class="col-lg-6 col-md-12 m-5 site-title">
-        <h3 class="title-tex">Hey!</h3>
-        <h1 class="title-text text-uppercase">I'm Jeannie.</h1>
-        <h4 class="title-text text-uppercase">Full Stack Web Developer</h4>
-        <div class="site-buttons">
-            <div class="d-flex flex-row flex-wrap">
-                <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button>
-                <button type="button" class="btn button secondary-button text-uppercase">get cv</button>
-            </div>
-
+    <!-- =================================== Header ======================================= -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                
+                    <!-- Toggler/collapsible Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                     <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-user-gear"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-puzzle-piece"></i>Skills</a>
+                    </li>   
+                     <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-code-pull-request"></i>Projects</a>
+                    </li>
+                  </ul>
+                </div>  
+              </nav>
         </div>
-    </div>
-    <div class="col-lg-6 col-md-12 m-5 title-text banner-image">
-        <img alt="banner" class="img-fluid" src='./img/banner programmer-.png'>
-    </div>
-</div>
-   </div>
-</section>
+    </header>
 <!-- =================================== About ======================================= -->
 <section class="about-area">
-    <div class="container mx-auto">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 ml-auto">
+            <div class="col-lg-6 col-md-12">
                 <div class="about-image">
                     <img src="./img/digital-art-g75ecbb1cb_1920.jpg" alt="about me" class="img-fluid">
                 </div>
@@ -97,7 +117,7 @@
 <section class="skills-area">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center skills-title">
+            <div class="col-lg-12 text-*-center skills-title">
                 <h1 class="text-uppercase title-text"> Technical Skills </h1>
                 <p class="parra"> All of the skills acquired will go here !!</p>
             </div>
@@ -107,9 +127,9 @@
          <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="skills">
-                    <div class="skills-img text-center py-4">
+                    <div class="skills-img text-*-center py-4">
                         <img class="mx-auto rounded-circle img-fluid" style="width:60px;" src="img/css-3.svg" alt="CSS3 logo">
-                        <div class="card-body text-center">
+                        <div class="card-body text-*-center">
                             <h5 class="card-title text-uppercase font-roboto">CSS3</h5>
                             <p class="card-text text-secondary">
                                 Some quick details regarding the skill set above!!!
@@ -120,9 +140,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="skills">
-                    <div class="skills-img text-center py-4">
+                    <div class="skills-img text-*-center py-4">
                         <img class="mx-auto rounded-circle img-fluid" style="width:60px;" src="img/html-1.svg" alt="HTML5 logo">
-                        <div class="card-body text-center">
+                        <div class="card-body text-*-center">
                             <h5 class="card-title text-uppercase font-roboto">HTML5</h5>
                             <p class="card-text text-secondary">
                                 Some quick details regarding the skill set above!!!
@@ -133,9 +153,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="skills">
-                    <div class="skills-img text-center py-4">
+                    <div class="skills-img text-*-center py-4">
                         <img class="mx-auto rounded-circle img-fluid" style="width:60px;"  src="img/javascript-1.svg" alt="JS logo">
-                        <div class="card-body text-center">
+                        <div class="card-body text-*-center">
                             <h5 class="card-title text-uppercase font-roboto">Javascript</h5>
                             <p class="card-text text-secondary">
                                 Some quick details regarding the skill set above!!!
@@ -146,9 +166,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="skills">
-                    <div class="skills-img text-center py-4">
+                    <div class="skills-img text-*-center py-4">
                         <img class="mx-auto rounded-circle img-fluid" style="width:60px;" src="img/gatsby.svg" alt="Gatsby logo">
-                        <div class="card-body text-center">
+                        <div class="card-body text-*-center">
                             <h5 class="card-title text-uppercase font-roboto">Gatsby</h5>
                             <p class="card-text text-secondary">
                                 Some quick details regarding the skill set above!!!
@@ -163,9 +183,9 @@
         <div class="row">
            <div class="col-lg-3 col-md-6 col-sm-12">
                <div class="skills">
-                   <div class="skills-img text-center py-4">
+                   <div class="skills-img text-*-center py-4">
                        <img class="mx-auto rounded-circle img-fluid" style="width:60px;" src="img/Bootstrap.png" alt="Bootstrap logo">
-                       <div class="card-body text-center">
+                       <div class="card-body text-*-center">
                            <h5 class="card-title text-uppercase font-roboto">Bootstrap</h5>
                            <p class="card-text text-secondary">
                                Some quick details regarding the skill set above!!!
@@ -176,9 +196,9 @@
            </div>
            <div class="col-lg-3 col-md-6 col-sm-12">
                <div class="skills">
-                   <div class="skills-img text-center py-4">
+                   <div class="skills-img text-*-center py-4">
                        <img class="mx-auto rounded-circle img-fluid" style="width:60px;" src="img/react-1.svg" alt="Reactjs logo">
-                       <div class="card-body text-center">
+                       <div class="card-body text-*-center">
                            <h5 class="card-title text-uppercase font-roboto">Reactjs</h5>
                            <p class="card-text text-secondary">
                                Some quick details regarding the skill set above!!!
@@ -189,9 +209,9 @@
            </div>
            <div class="col-lg-3 col-md-6 col-sm-12">
                <div class="skills">
-                   <div class="skills-img text-center py-4">
+                   <div class="skills-img text-*-center py-4">
                        <img class="mx-auto rounded-circle img-fluid" style="width:60px;" src="img/nodejs-1.svg" alt="Nodejs logo">
-                       <div class="card-body text-center">
+                       <div class="card-body text-*-center">
                            <h5 class="card-title text-uppercase font-roboto">Nodejs</h5>
                            <p class="card-text text-secondary">
                                Some quick details regarding the skill set above!!!
@@ -202,9 +222,9 @@
            </div>
            <div class="col-lg-3 col-md-6 col-sm-12">
                <div class="skills">
-                   <div class="skills-img text-center py-4">
+                   <div class="skills-img text-*-center py-4">
                        <img class="mx-auto rounded-circle img-fluid" style="width:60px;" src="img/Wordpresslogo.png" alt="WP logo">
-                       <div class="card-body text-center">
+                       <div class="card-body text-*-center">
                            <h5 class="card-title text-uppercase font-roboto">WordPress Developer</h5>
                            <p class="card-text text-secondary">
                                Some quick details regarding the skill set above!!!
@@ -217,28 +237,105 @@
     </div>
 </section>
 <!-- =================================== Projects  ======================================= -->
-
 <section class="project-area">
     <div class="container">
-        <div class="project-title pb-5">
-            <h1 class="text-uppercase title-h1">Projects</h1>
+        <div class="project-title">
+            <h1 class="text-uppercase title-h1">My Projects</h1>
             <h1 class="text-uppercase title-h1">WordPress Sites</h1>
+        </div>
+
+        <div class="button-group">
+            <button type="button" class="active" data-filter="*"> All </button>
+            <button type="button" data-filter=".wordpress"> WordPress Websites </button>
+            <button type="button" data-filter=".portfolio"> My Projects </button>
+        </div>
+
+        <div class="row grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item portfolio">
+                <div class="my-projects">
+                    <div class="img">
+                        <img class="img-fluid" style="width:400px;" style="height:600px;" src="img/Got-tech.png" alt="Portfolio1">
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">
+                            Got Tech?
+                        </h4>
+                        <span class="text-secondary"> Portfolio, A Job Search engine focusing on SoftWare Development. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item portfolio">
+                <div class="my-projects">
+                    <div class="img">
+                        <img class="img-fluid" style="width:400px;" style="height:600px;" src="img/Got-tech.png" alt="Portfolio2">
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">
+                            Got Tech?
+                        </h4>
+                        <span class="text-secondary"> Portfolio, A Job Search engine focusing on SoftWare Development. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item portfolio">
+                <div class="my-projects">
+                    <div class="img">
+                        <img class="img-fluid" style="width:400px;" style="height:600px;" src="img/Got-tech.png" alt="Portfolio3">
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">
+                            Got Tech?
+                        </h4>
+                        <span class="text-secondary"> Portfolio, A Job Search engine focusing on SoftWare Development. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item wordpress">
+                <div class="my-projects">
+                    <div class="img">
+                        <img class="img-fluid" style="width:400px;" style="height:600px;" src="img/Got-tech.png" alt="WordPress1">
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">
+                            Got Tech?
+                        </h4>
+                        <span class="text-secondary"> WordPress Sites, A Job Search engine focusing on SoftWare Development. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item wordpress">
+                <div class="my-projects">
+                    <div class="img">
+                        <img class="img-fluid" style="width:400px;" style="height:600px;" src="img/Got-tech.png" alt="WordPress2">
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">
+                            Got Tech?
+                        </h4>
+                        <span class="text-secondary"> WordPress Sites, A Job Search engine focusing on SoftWare Development. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item wordpress">
+                <div class="my-projects">
+                    <div class="img">
+                        <img class="img-fluid" style="width:400px;" style="height:600px;" src="img/Got-tech.png" alt="WordPress3">
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">
+                            Got Tech?
+                        </h4>
+                        <span class="text-secondary"> WordPress Sites, A Job Search engine focusing on SoftWare Development. </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 
-
 </main>
-
-<!-- =================================== Main Area Ends ======================================= -->
 <!-- =================================== Main Area Ends ======================================= -->
 
-
-    <!--jquery file --> 
-    <script src="./js/jquery-3.6.0.js"></script>
-
-    <!--Bootstrap js file -->
-    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
