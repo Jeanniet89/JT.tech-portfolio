@@ -33,7 +33,7 @@
 }
 /* banner */
  .site-banner{
-    background: url(/img/eye-4453129_1920.jpg)no-repeat 0% 50%;
+    background: url(/img/eye-4453129_1920.jpg)no-repeat 0% 53%;
 }
  .site-banner .site-title h3{
    padding-top: 35%;
@@ -118,6 +118,12 @@
 .site-main .project-area{
     padding: 2rem 2rem;
 }
+.site-main .project-area .project-title h1{
+    text-align: left;
+    letter-spacing: 21px;
+    font-size: 35px;
+    font: normal bold 49px/60px var(--roboto);
+}
 .site-main .project-area .button-group button{
     background: transparent;
     border: none;
@@ -135,4 +141,64 @@
 }
 .site-main .project-area .grid .my-projects{
     margin: 2rem auto;
+}
+/* footer */
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  .footer-basic li {
+    padding:0 10px;
+  }
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid var(--border-color);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+#jtech-logo {
+    width:6rem;
+    height: 6rem;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
 }
