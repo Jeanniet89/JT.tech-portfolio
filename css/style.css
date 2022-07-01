@@ -114,6 +114,12 @@
 .site-main > .skills-area .skills:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.site-main .skills-area .skills .skills-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 /* projects */
 .site-main .project-area{
     padding: 2rem 2rem;
