@@ -60,3 +60,14 @@ button:hover
     outline: 0px !important;
     box-shadow: none !important;
 }
+
+.navbar_fixed{
+    position:fixed;
+    width:100%;
+    top: -1px;
+    left: 0; right: 0;
+    background:#ffffff4f;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}

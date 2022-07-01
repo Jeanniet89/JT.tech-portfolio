@@ -59,7 +59,7 @@
     padding:2rem 2rem;
 }
 .site-main .about-area .about-image > img{
-    padding: 6rem;
+    padding: auto;
     margin-left: 5%;
     border-radius: 100%;
 }
@@ -122,7 +122,7 @@
 }
 /* projects */
 .site-main .project-area{
-    padding: 2rem 2rem;
+    padding: 2rem 3rem;
 }
 .site-main .project-area .project-title h1{
     text-align: left;
@@ -141,16 +141,23 @@
 }
 .site-main .project-area .grid .my-projects > .title h4{
     font: normal 700 25px/12px var(--roboto);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 .site-main .project-area .grid .my-projects .img a:hover img{
-    filter:brightness(1.1)drop-shadow(0 8px 16px 0 rgba(0,0,0,0.2));
+    filter:brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+    border-radius: 20px;
 }
 .site-main .project-area .grid .my-projects{
     margin: 2rem auto;
+    padding: 2rem auto;
 }
 /* footer */
 .footer-basic {
-    padding:40px 0;
+    padding:5rem 0;
     background-color:#ffffff;
     color:#4b4c4d;
   }
@@ -178,20 +185,21 @@
     padding-bottom:25px;
   }
   .footer-basic .social > a {
-    font-size:24px;
+    font-size:22px;
     width:40px;
     height:40px;
     line-height:40px;
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    border:1px solid var(--border-color);
+    border:1px solid;
     margin:0 8px;
-    color:inherit;
-    opacity:0.75;
+    color:var(--border-color);
+    opacity:0.9;
   }
   .footer-basic .social > a:hover {
     opacity:0.9;
+    color:var(--primary-color);
   }
   .footer-basic .copyright {
     margin-top:15px;
@@ -202,9 +210,8 @@
   }
 #jtech-logo {
     width:6rem;
-    height: 6rem;
+    height: 7rem;
     position: relative;
-    top: 5px;
-    left: 10px;
+    top: 2rem;
     cursor: pointer;
 }

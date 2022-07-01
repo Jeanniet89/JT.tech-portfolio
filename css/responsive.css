@@ -1,0 +1,69 @@
+/* if the viewport is equal to 340px or less */
+@media only screen and (max-width: 340px){
+    .site-main .header_area .main-menu .navbar,
+    .site-main .header_area .main-menu .navbar .navbar-nav,
+    .site-banner .site-title .title-text,
+    .site-main .about-area .about-title .paragraph,
+    .site-main .skills-area .skills-title .skills-img,
+    .site-main .project-area .project-title .button-group .grid .my-projects .img{
+        padding:2%;
+        margin:0%;
+    }
+    .site-banner .site-title h1{
+        font-size: 41px;   
+    }
+    .site-main .about-area .about-title h2{
+        font-size: 10px;
+    }
+    .site-main .skills-area .skills-title h1{
+        font-size: 31px;
+    }
+    .site-main .project-area .project-title h1{
+        font-size: 31px;
+    }
+    .site-main .project-area .button-group button{
+        font:normal 500 12px/20px var(--roboto);
+    }
+    .site-main .project-area .grid .my-projects > .title h4{
+        font:normal 500 12px/20px var(--roboto);
+        padding:0%;
+    }
+}
+
+/* if the viewport is equal to 792px or less */
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size:31px;
+        letter-spacing:10px;
+    }
+    .site-main .about-area .about-title p{
+        padding:0%;
+    }
+    .site-main .project-area .button-group button{
+        font:normal 500 16px/30px var(--roboto);
+    }
+    .site-main .project-area .grid .my-projects > .title h4{
+        font:normal 500 16px/30px var(--roboto);
+        padding:0%;
+    }
+}
+
+/* if the viewport is equal to 1910px or less */
+@media only screen and (max-width: 1910px){
+    .site-main .header_area .main-menu .navbar{
+        padding:1rem;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .site-banner .site-title,
+    .site-main .about-area,
+    .site-main .skills-area .skills-title{
+        padding:3% 4%;
+    }
+    .site-main .project-area .grid .my-projects > .title h4{
+        font:normal 500 20px/40px var(--roboto);
+        padding:0%;
+    }
+
+}
